@@ -1,0 +1,28 @@
+div.my-start{
+    height: 50vh;
+    background-color: blueviolet;
+}
+
+div.my-card{
+    background-color: teal;
+    height: 30vh;
+}
+
+div.my-about{
+    height: 100vh;
+    background-color: brown;
+}
+
+div.my-contact{
+    background-color: red;
+    height: 60vh;
+}
+
+div.my-info{
+    height: 15vh;
+    background-color: yellow;
+}
+
+div.my-copywright{
+    height: 10vh;
+}
