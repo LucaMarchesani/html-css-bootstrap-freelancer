@@ -1,28 +1,100 @@
-div.my-start{
-    height: 50vh;
-    background-color: blueviolet;
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
 }
 
-div.my-card{
-    background-color: teal;
-    height: 30vh;
+header{
+    background-color: #2c3e50;
 }
 
-div.my-about{
-    height: 100vh;
-    background-color: brown;
+ul.my-links>li{
+    margin-left: 1rem;
 }
 
-div.my-contact{
-    background-color: red;
-    height: 60vh;
+div#bottom-footer{
+    background-color: #2c3e50;
 }
 
-div.my-info{
-    height: 15vh;
-    background-color: yellow;
+div#jumbo{
+    background-color: #1abc9c;
 }
 
-div.my-copywright{
-    height: 10vh;
+div#cards,
+div#contact{
+    color: #000000;
 }
+
+div#about{
+    background-color: #1abc9c;
+}
+
+div#info{
+    background-color: #3a546d;
+}
+
+div#top-footer h3{
+    font-size: 1.2rem;
+}
+
+div#top-footer p{
+    font-size: 1.1rem;
+}
+
+section.jumbo-content>img{
+    width: 220px;
+}
+
+section.jumbo-content>h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+section.jumbo-content>p{
+    font-size: 1.3rem;
+}
+
+section.my-card>h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+img.my-card{
+    border-radius: 10px;
+}
+
+div.about-content>p{
+    font-size: 1.3rem;
+}
+
+button.b-download{
+    font-weight: 500;
+    color: #ffffff;
+    padding: .5rem 1rem;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    font-size: 1.4rem;
+}
+
+div.contact-input input, textarea{
+    width: 100%;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid lightgray;
+}
+
+::placeholder {
+    opacity: 1;
+}
+
+span.green-text{
+    color: #1abc9c;
+}
+
+img.social{
+    width: 3rem;
+    margin: .5rem;
+    filter: invert(1);
+}
+
+
